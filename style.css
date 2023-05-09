@@ -1,0 +1,32 @@
+body {
+    background: tomato;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 606px;
+    height: 606px;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.mole {
+    background: url('./mole.jpg')center center/cover no-repeat;
+}
+h2 {
+    margin-right: 15px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#go {
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 3px;
+    display: inline-block;
+    cursor: pointer;
+}
